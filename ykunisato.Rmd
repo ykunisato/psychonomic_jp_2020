@@ -1,8 +1,9 @@
 ---
 title: "恐怖の再発と潜在原因モデル"
+subtitle: "- 計算論的精神医学入門 -"
 author: "国里　愛彦"
 institute: "専修大学人間科学部心理学科"
-date: "日本認知・行動療法学会(2020年9月)"
+date: "日本基礎心理学会第39回大会"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -38,7 +39,7 @@ style_mono_accent(base_color = "#006400",
 )
 ```
 
-<!--15分。15スライド-->
+<!--30分-->
 
 # 国里愛彦（くにさとよしひこ）
 - 計算論的アプローチとRと自然をこよなく愛す
@@ -219,7 +220,6 @@ https://imgur.com/vsAtUs1
 - Gershman, S. J., & Niv, Y. (2012). Exploring a latent cause theory of classical conditioning. Learning & Behavior, 40(3), 255–268.
 ]
 ---
-
 
 # 引用文献
 .small[
