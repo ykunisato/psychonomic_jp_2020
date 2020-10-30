@@ -3,7 +3,7 @@
   <head>
     <title>恐怖の再発と潜在原因モデル</title>
     <meta charset="utf-8" />
-    <meta name="author" content="国里　愛彦" />
+    <meta name="author" content="国里愛彦" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -12,20 +12,20 @@ class: center, middle, inverse, title-slide
 
 # 恐怖の再発と潜在原因モデル
 ## - 計算論的精神医学入門 -
-### 国里　愛彦
-### 専修大学人間科学部心理学科
-### 日本基礎心理学会第39回大会
+### 国里愛彦
+### 専修大学心理学科
+### 2020/11/7 日本基礎心理学会第39回大会
 
 ---
 
 
 
 
-&lt;!--15分。15スライド--&gt;
+&lt;!--30分--&gt;
 
 # 国里愛彦（くにさとよしひこ）
 - 計算論的アプローチとRと自然をこよなく愛す
-- 国里・片平・沖村・山下(2019).green[『計算論的精神医学: 情報処理過程から読み解く精神障害』]勁草書房
+- .green[『計算論的精神医学: 情報処理過程から読み解く精神障害』](国里・片平・沖村・山下, 2019年, 勁草書房)
 
 &lt;img src="pic/01.png" width="550"&gt;
 
@@ -45,14 +45,14 @@ class: center, middle, inverse, title-slide
 
 - David Marr(1982)の３つの枠組み（.green[計算理論，表現とアルゴリズム，インプリメンテーション]）から検討する。
 
-→　現象の記述だけでなく，プログラム可能なアルゴリズムまで踏み込んだ理解が可能かも？
+→現象の記述だけでなく，プログラム可能なアルゴリズムまで踏み込んだ理解が可能かも？
 ---
 
-# 計算論的アプローチ
+# Marrの3つの水準
 
-- 神経・行動的現象の背景にあるプロセスを数理モデルによって検討するアプローチ(国里ら, 2019)。
-- David Marr(1982)の３つの枠組み（計算理論，表現とアルゴリズム，インプリメンテーション）からなる。
-&lt;img src="pic/02.png" width="600"&gt;
+&lt;img src="pic/18.png" width="700"&gt;
+
+- 。
 
 ---
 
@@ -61,16 +61,13 @@ class: center, middle, inverse, title-slide
 &lt;img src="pic/02.png" width="650"&gt;
 - 入力から反応が生成される過程をモデル化した.green[生成モデル]を仮定することで，シミュレーションやデータから潜在過程が検討できる(国里ら,2018)。
 ---
+# 生成モデル，
 
+
+
+--
 # ４つの生成モデル
 &lt;img src="pic/13.png" width="800"&gt;
----
-
-# 強化学習モデル
-
-- 強化学習モデルは，生体が環境との相互作用して，.green[将来の報酬と罰を予測することに関する学習.med[(古典的条件づけ)]と将来の報酬を最大化もしくは罰を最小化する行動を選択することの学習.med[(道具的条件づけ)]をモデル化.small[（Kurth-Nelson et al.,2016)]]
-
-&lt;img src="pic/16.png" width="1000"&gt;
 ---
 
 # 計算論的アプローチの方法
@@ -85,7 +82,15 @@ output &lt;- dd_hyperbolic(data = df, niter = 2000, nwarmup = 1000, nchain = 4, 
 &lt;img src="pic/12.png" width="150"&gt;
 ---
 
+# 計算論的アプローチの利点
 
+- 疾病分類とバイオマーカーの洗練化：計算論的検査(Computational assay, Stephan &amp; Mathys, 2014)
+
+- 説明のギャップを埋める
+
+- 効果的な治療法・検査法の探索
+
+---
 
 # 計算論的アプローチの例：恐怖の再発
 
@@ -129,6 +134,14 @@ output &lt;- dd_hyperbolic(data = df, niter = 2000, nwarmup = 1000, nchain = 4, 
 - Gershman et al.(2013)は，潜在原因を増やさない方法として，段階的消去（一気に消去せず，USは少し残しずつ消去する）を提案した。
 
 →動物実験で，.green[段階的消去の方が再発が少ない]ことを示した。
+
+---
+# LCMの適用
+
+- 68名の大学生に恐怖条件づけ実験を実施(CS:図形刺激，US:恐怖顔と叫び声）。アウトカム指標として，US予期。
+-  `\(\alpha\)` の高い人の方が，変動性が大きい（USの有無で反応が動きやすい）。 `\(\alpha\)` の高い人の方が，CS-への反応が低くなりにくい（弁別が弱いor般化しやすい？）。
+
+&lt;img src="pic/17.png" width="550"&gt;
 
 ---
 # どういう写真？
@@ -202,7 +215,6 @@ https://imgur.com/vsAtUs1
 - Gershman, S. J., &amp; Niv, Y. (2012). Exploring a latent cause theory of classical conditioning. Learning &amp; Behavior, 40(3), 255–268.
 ]
 ---
-
 
 # 引用文献
 .small[
